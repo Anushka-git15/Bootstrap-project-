@@ -26,6 +26,17 @@ body{
     border-bottom:1px solid rgba(255,255,255,.08);
 }
 
+.navbar-toggler{
+    border:10px solid rgba(255,255,255,0.4);
+}
+
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+
+.navbar-toggler-icon{
+    filter:brightness(0) invert(1);
+}
 .logo{
 
     color:#fff;
